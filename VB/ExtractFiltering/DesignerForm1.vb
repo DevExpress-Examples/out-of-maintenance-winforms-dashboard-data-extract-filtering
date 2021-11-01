@@ -9,7 +9,6 @@ Namespace ExtractFiltering
 			dashboardDesigner.CreateRibbon()
 			dashboardDesigner.LoadDashboard("Dashboards\dashboard1.xml")
 
-
 			Dim excelDataSource As New DashboardExcelDataSource() With {
 				.FileName = "..\..\Data\SalesPerson2.xlsx",
 				.SourceOptions = New DevExpress.DataAccess.Excel.ExcelSourceOptions(New DevExpress.DataAccess.Excel.ExcelWorksheetSettings() With {.WorksheetName = "Sheet1"})
@@ -20,7 +19,6 @@ Namespace ExtractFiltering
 			dataExtract.Filter = "[ProductName] = 'Chai'"
 			dataExtract.ExtractSourceOptions.Filter = "[CategoryName] = 'Beverages'"
 			dataExtract.FileName = "..\..\Data\Extract1.dat"
-
 			dashboardDesigner.Dashboard.DataSources.Add(dataExtract)
 			dataExtract.UpdateExtractFile()
 
