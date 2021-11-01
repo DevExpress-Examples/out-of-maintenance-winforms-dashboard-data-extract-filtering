@@ -7,7 +7,7 @@
 A repository template for creating new examples.
 -->
 
-# Dashboard For WinForms - Filter the Extract data Source 
+# Dashboard for WinForms - Filter the Extract data Source 
 
 The following example creates a data extract from the Excel data source and shows how to filter the extracted data.
 
