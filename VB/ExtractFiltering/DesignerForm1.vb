@@ -11,13 +11,15 @@ Namespace ExtractFiltering
 
 
 			Dim excelDataSource As New DashboardExcelDataSource() With {
-				.FileName = "C:\Users\zakhodyaeva\Desktop\winforms-dashboard-data-extract-filtering\CS\ExtractFiltering\Data\SalesPerson2.xlsx",
+				.FileName = "..\..\Data\SalesPerson2.xlsx",
 				.SourceOptions = New DevExpress.DataAccess.Excel.ExcelSourceOptions(New DevExpress.DataAccess.Excel.ExcelWorksheetSettings() With {.WorksheetName = "Sheet1"})
 			}
 
 			Dim dataExtract As New DashboardExtractDataSource()
 			dataExtract.ExtractSourceOptions.DataSource = excelDataSource
-			dataExtract.FileName = "C:\Users\zakhodyaeva\Desktop\winforms-dashboard-data-extract-filtering\CS\ExtractFiltering\Data\Extract1.dat"
+			dataExtract.Filter = "[ProductName] = 'Chai'"
+			dataExtract.ExtractSourceOptions.Filter = "[CategoryName] = 'Beverages'"
+			dataExtract.FileName = "..\..\Data\Extract1.dat"
 
 			dashboardDesigner.Dashboard.DataSources.Add(dataExtract)
 			dataExtract.UpdateExtractFile()

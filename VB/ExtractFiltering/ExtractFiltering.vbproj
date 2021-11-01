@@ -120,7 +120,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="bin\Debug\Data\SalesPerson2.xlsx" />
-    <None Include="bin\Debug\SalesPerson2.xlsx" />
     <None Include="Data\Extract1.dat" />
     <None Include="Data\SalesPerson2.xlsx" />
     <None Include="My Project\Settings.settings">

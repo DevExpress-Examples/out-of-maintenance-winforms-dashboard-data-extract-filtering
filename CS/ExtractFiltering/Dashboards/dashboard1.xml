@@ -2,12 +2,12 @@
 <Dashboard CurrencyCulture="en-US">
   <Title Text="Dashboard" />
   <DataSources>
-    <ExtractFileDataSource ComponentName="dashboardExtractDataSource1" Name="Extract Data Source 1">
+    <ExtractFileDataSource ComponentName="dashboardExtractDataSource2" Name="Extract Data Source 2">
       <Filter>[ProductName] = 'Chai'</Filter>
-      <FileName>C:\Users\zakhodyaeva\Desktop\ExtractFiltering\ExtractFiltering\Data\Extract1.dat</FileName>
+      <FileName>..\..\Data\Extract1.dat</FileName>
       <ExtractSourceFilter>[CategoryName] = 'Beverages'</ExtractSourceFilter>
       <ExtractSource>
-        <ExcelDataSource FileName="C:\Users\zakhodyaeva\Desktop\winforms-dashboard-data-extract-filtering\ExtractFiltering\Data\SalesPerson2.xlsx">
+        <ExcelDataSource FileName="..\..\Data\SalesPerson2.xlsx">
           <Options Type="DevExpress.DataAccess.Excel.ExcelSourceOptions" SkipEmptyRows="true" UseFirstRowAsHeader="true" SkipHiddenColumns="true" SkipHiddenRows="true">
             <ImportSettings Type="DevExpress.DataAccess.Excel.ExcelWorksheetSettings" WorksheetName="Sheet1" />
           </Options>
@@ -61,7 +61,7 @@
     </ExtractFileDataSource>
   </DataSources>
   <Items>
-    <Grid ComponentName="gridDashboardItem1" Name="Chai Sells by Sellers" DataSource="dashboardExtractDataSource1">
+    <Grid ComponentName="gridDashboardItem1" Name="Chai Sells by Sellers" DataSource="dashboardExtractDataSource2">
       <DataItems>
         <Dimension DataMember="Sales Person" DefaultId="DataItem0" />
         <Dimension DataMember="ProductName" DefaultId="DataItem1" />
