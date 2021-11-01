@@ -7,7 +7,7 @@
 A repository template for creating new examples.
 -->
 
-# Product/Platform - Task
+# Product/Platform - Task EE
 
 The description in a free form.
 
