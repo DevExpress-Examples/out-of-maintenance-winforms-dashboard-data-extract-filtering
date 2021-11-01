@@ -19,7 +19,7 @@ The following example creates a data extract from the Excel data source and show
 
     Filters data loaded to a dashboard from the extract data source. The following expressions allows you to display only _Chai_ product: `[ProductName] = 'Chai'`. 
 
-As a result the Grid dashboard item displays the sales of the _Chai_ product from the _Beverages_ category for each seller:
+As a result, the Grid dashboard item displays the sales of the _Chai_ product from the _Beverages_ category for each seller:
 
 ![extract-filtering-example](images/grid.png)
 
