@@ -8,15 +8,15 @@ A repository template for creating new examples.
 
 # Dashboard for WinForms - Filter the Extract Data Source 
 
-The following example creates a data extract from the excel data source and shows how to filter the extracted data.
+The following example creates a data extract from the Excel data source and shows how to filter the extracted data:
 
 * [ExtractSourceOptions.Filter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.ExtractSourceOptions.Filter)
 
-     Specifies the `[CategoryName] = 'Beverages'` expression. This expression allows you to include only rows related to _Beverages_ category in the created data extract. 
+     Specifies the `[CategoryName] = 'Beverages'` expression. This expression allows you to include only rows related to the _Beverages_ category in the created data extract. 
 
 * [DashboardExtractDataSource.Filter](https://docs.devexpress.com/Dashboard/DevExpress.DashboardCommon.DashboardExtractDataSource.Filter)
 
-    Filters data loaded to a dashboard from the extract data source. The following expressions allows you to display only _Chai_ product: `[ProductName] = 'Chai'`. 
+    Filters data loaded to a dashboard from the extract data source. The following expressions allows you to display only the _Chai_ product: `[ProductName] = 'Chai'`:
 
 As a result, the Grid dashboard item displays the sales of the _Chai_ product from the _Beverages_ category for each seller:
 
