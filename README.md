@@ -24,7 +24,7 @@ As a result, the Grid dashboard item displays the sales of the _Chai_ product fr
 
 ## Files to Look At
 
-- [DesignerForm1.cs](/CS/ExtractFiltering/DesignerForm1.cs) (VB: [DesignerForm1.vb](/VB/ExtractFiltering/DesignerForm1.vb))
+- [DesignerForm1.cs](./CS/ExtractFiltering/DesignerForm1.cs) (VB: [DesignerForm1.vb](./VB/ExtractFiltering/DesignerForm1.vb))
 
 <!-- default file list end --> 
 
